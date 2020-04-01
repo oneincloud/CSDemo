@@ -1,5 +1,10 @@
 import socket
 
+'''
+Windows系统查看端口是否被使用命令
+netstat -an|find /i "5000"
+'''
+
 # TCP服务器端
 IP ='0.0.0.0'
 # 端号
